@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B587528282B1BA90023A946 /* Wrld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCD001F282B1580004FB8BC /* Wrld.framework */; };
+		3B587529282B1BA90023A946 /* Wrld.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCD001F282B1580004FB8BC /* Wrld.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3B58752B282B1BAB0023A946 /* WrldWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCD0023282B1586004FB8BC /* WrldWidgets.framework */; };
+		3B58752C282B1BAB0023A946 /* WrldWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCD0023282B1586004FB8BC /* WrldWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3B58752E282B26750023A946 /* AppMapViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B58752D282B26750023A946 /* AppMapViewDelegate.m */; };
+		3BCD0003282B1441004FB8BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCD0002282B1441004FB8BC /* AppDelegate.m */; };
+		3BCD0006282B1441004FB8BC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCD0005282B1441004FB8BC /* SceneDelegate.m */; };
+		3BCD0009282B1441004FB8BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCD0008282B1441004FB8BC /* ViewController.m */; };
+		3BCD000C282B1441004FB8BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BCD000A282B1441004FB8BC /* Main.storyboard */; };
+		3BCD000E282B1442004FB8BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCD000D282B1442004FB8BC /* Assets.xcassets */; };
+		3BCD0011282B1442004FB8BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BCD000F282B1442004FB8BC /* LaunchScreen.storyboard */; };
+		3BCD0014282B1442004FB8BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCD0013282B1442004FB8BC /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B58752A282B1BAA0023A946 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3B587529282B1BA90023A946 /* Wrld.framework in Embed Frameworks */,
+				3B58752C282B1BAB0023A946 /* WrldWidgets.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3B58752D282B26750023A946 /* AppMapViewDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppMapViewDelegate.m; sourceTree = "<group>"; };
+		3B58752F282B26900023A946 /* AppMapViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMapViewDelegate.h; sourceTree = "<group>"; };
+		3BCD0001282B1441004FB8BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BCD0002282B1441004FB8BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BCD0004282B1441004FB8BC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3BCD0005282B1441004FB8BC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3BCD0007282B1441004FB8BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BCD0008282B1441004FB8BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BCD000B282B1441004FB8BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BCD000D282B1442004FB8BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BCD0010282B1442004FB8BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BCD0012282B1442004FB8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BCD0013282B1442004FB8BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BCD001B282B146A004FB8BC /* Wrld.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Wrld.framework; path = "../wrld-ios-sdk-v0.0.1567/Wrld.framework"; sourceTree = "<group>"; };
+		3BCD001F282B1580004FB8BC /* Wrld.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Wrld.framework; sourceTree = "<group>"; };
+		3BCD0023282B1586004FB8BC /* WrldWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WrldWidgets.framework; sourceTree = "<group>"; };
+		3BCDFFFE282B1441004FB8BC /* UoW Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UoW Compass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BCDFFFB282B1441004FB8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B587528282B1BA90023A946 /* Wrld.framework in Frameworks */,
+				3B58752B282B1BAB0023A946 /* WrldWidgets.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BCD0000282B1441004FB8BC /* UoW Compass */ = {
+			isa = PBXGroup;
+			children = (
+				3BCD0001282B1441004FB8BC /* AppDelegate.h */,
+				3BCD0002282B1441004FB8BC /* AppDelegate.m */,
+				3BCD0004282B1441004FB8BC /* SceneDelegate.h */,
+				3BCD0005282B1441004FB8BC /* SceneDelegate.m */,
+				3BCD0007282B1441004FB8BC /* ViewController.h */,
+				3BCD0008282B1441004FB8BC /* ViewController.m */,
+				3BCD000A282B1441004FB8BC /* Main.storyboard */,
+				3BCD000D282B1442004FB8BC /* Assets.xcassets */,
+				3BCD000F282B1442004FB8BC /* LaunchScreen.storyboard */,
+				3BCD0012282B1442004FB8BC /* Info.plist */,
+				3BCD0013282B1442004FB8BC /* main.m */,
+				3B58752F282B26900023A946 /* AppMapViewDelegate.h */,
+				3B58752D282B26750023A946 /* AppMapViewDelegate.m */,
+			);
+			path = "UoW Compass";
+			sourceTree = "<group>";
+		};
+		3BCD001A282B146A004FB8BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BCD0023282B1586004FB8BC /* WrldWidgets.framework */,
+				3BCD001F282B1580004FB8BC /* Wrld.framework */,
+				3BCD001B282B146A004FB8BC /* Wrld.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BCDFFF5282B1441004FB8BC = {
+			isa = PBXGroup;
+			children = (
+				3BCD0000282B1441004FB8BC /* UoW Compass */,
+				3BCDFFFF282B1441004FB8BC /* Products */,
+				3BCD001A282B146A004FB8BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BCDFFFF282B1441004FB8BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BCDFFFE282B1441004FB8BC /* UoW Compass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BCDFFFD282B1441004FB8BC /* UoW Compass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BCD0017282B1442004FB8BC /* Build configuration list for PBXNativeTarget "UoW Compass" */;
+			buildPhases = (
+				3BCDFFFA282B1441004FB8BC /* Sources */,
+				3BCDFFFB282B1441004FB8BC /* Frameworks */,
+				3BCDFFFC282B1441004FB8BC /* Resources */,
+				3B58752A282B1BAA0023A946 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UoW Compass";
+			productName = "UoW Compass";
+			productReference = 3BCDFFFE282B1441004FB8BC /* UoW Compass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BCDFFF6282B1441004FB8BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3BCDFFFD282B1441004FB8BC = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3BCDFFF9282B1441004FB8BC /* Build configuration list for PBXProject "UoW Compass" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BCDFFF5282B1441004FB8BC;
+			productRefGroup = 3BCDFFFF282B1441004FB8BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BCDFFFD282B1441004FB8BC /* UoW Compass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BCDFFFC282B1441004FB8BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BCD0011282B1442004FB8BC /* LaunchScreen.storyboard in Resources */,
+				3BCD000E282B1442004FB8BC /* Assets.xcassets in Resources */,
+				3BCD000C282B1441004FB8BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BCDFFFA282B1441004FB8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B58752E282B26750023A946 /* AppMapViewDelegate.m in Sources */,
+				3BCD0009282B1441004FB8BC /* ViewController.m in Sources */,
+				3BCD0003282B1441004FB8BC /* AppDelegate.m in Sources */,
+				3BCD0014282B1442004FB8BC /* main.m in Sources */,
+				3BCD0006282B1441004FB8BC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BCD000A282B1441004FB8BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BCD000B282B1441004FB8BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BCD000F282B1442004FB8BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BCD0010282B1442004FB8BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BCD0015282B1442004FB8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BCD0016282B1442004FB8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BCD0018282B1442004FB8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R27Y282XJU;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UoW Compass/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.wmin.UoW-Compass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Debug;
+		};
+		3BCD0019282B1442004FB8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R27Y282XJU;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UoW Compass/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.wmin.UoW-Compass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BCD0017282B1442004FB8BC /* Build configuration list for PBXNativeTarget "UoW Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BCD0018282B1442004FB8BC /* Debug */,
+				3BCD0019282B1442004FB8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BCDFFF9282B1441004FB8BC /* Build configuration list for PBXProject "UoW Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BCD0015282B1442004FB8BC /* Debug */,
+				3BCD0016282B1442004FB8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BCDFFF6282B1441004FB8BC /* Project object */;
+}
