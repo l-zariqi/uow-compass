@@ -1,1 +1,1 @@
-# uow-compass
+# UoW-Compass
